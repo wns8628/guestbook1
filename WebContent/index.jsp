@@ -40,7 +40,7 @@
 				<td><a href="deleteform.jsp?no=<%=list.get(i).getNo() %>">삭제</a></td>
 			</tr>
 			<tr>
-				<td colspan=4><%=list.get(i).getMessage()%></td>
+				<td colspan=4><pre><%=list.get(i).getMessage()%></pre></td>
 			</tr>
 		</table>
 		<br>
